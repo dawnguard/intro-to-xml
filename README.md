@@ -36,11 +36,11 @@ Now let's convert this note into XML:
 
 The opening and closing brackets (< and >) with text inside of them are called tags.
 
-Tags always come in pairs: <xml> and </xml>, <note> and </note>, to and </to>, you get the picture. The first tag (the one without the '/') of the tag pair is called the opening tag. The second tag (the one with the '/' at the beginning) of the tag pair is called the closing tag.
+Tags always come in pairs: `<xml>` and `</xml>`, `<note>` and `</note>`, to and `</to>`, you get the picture. The first tag (the one without the '/') of the tag pair is called the opening tag. The second tag (the one with the '/' at the beginning) of the tag pair is called the closing tag.
 
-Let's take the case of <xml> ... </xml>. Whatever that comes between the opening and closing tags (...) has now been 'tagged' or 'categorized' as XML. In other words, we know that all the text between the <xml> and </xml> tags is xml.
+Let's take the case of `<xml>` ... `</xml>`. Whatever that comes between the opening and closing tags (...) has now been 'tagged' or 'categorized' as XML. In other words, we know that all the text between the `<xml>` and `</xml>` tags is xml.
 
-Same for the other tags (All the stuff between <note> and </note> is the content of the note. The text between <from> and </from> is the name of the sender).
+Same for the other tags (All the stuff between `<note>` and `</note>` is the content of the note. The text between `<from>` and `</from>` is the name of the sender).
 
 
 So what did we just do, by writing that note in xml? We organized the  contents of the note into distinct categories (think of each tag pair as a ctegory; we organised the note into 3 named categories- 'to', 'from' and 'message').
@@ -98,9 +98,9 @@ So there's 3 categories of data in the notes that John writes:
 - Body: The actual content of the note.
 
 
-By the end of the year, John and Jake become best friends. John decides to send Jake the notes he wrote about him. It's as simple as writing a couple of lines couple of lines of code which instruct the computer to compile the <body> of all notes which have "Jake" as the <name>; in a text file, with a paragraph break after each note to separate them.
+By the end of the year, John and Jake become best friends. John decides to send Jake the notes he wrote about him. It's as simple as writing a couple of lines couple of lines of code which instruct the computer to compile the `<body>` of all notes which have "Jake" as the `<name>`; in a text file, with a paragraph break after each note to separate them.
 
-He then realizes that he also had written some 'bad' notes about Jake, which he doesn't want Jake to see. He modifies his code so that it only compiles the notes which have "Jake" as the <name> and "Good" as the <type>.
+He then realizes that he also had written some 'bad' notes about Jake, which he doesn't want Jake to see. He modifies his code so that it only compiles the notes which have "Jake" as the `<name>` and "Good" as the `<type>`.
 
 And now John has a text document of all the 'good' notes he has written about Jake over the past year. He sends it as an email to Jake.
 
