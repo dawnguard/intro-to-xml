@@ -17,7 +17,7 @@ He writes a note for Ana explaining that he'll be back by 3:30pm and sticks it o
 ```
 Ana,
 
-Had to go out for some inportant work. I'll be back by 3:30 x
+Had to go out for some important work. I'll be back by 3:30 x
 
 - Jake
 ```
